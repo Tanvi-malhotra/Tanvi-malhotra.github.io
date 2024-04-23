@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Alptitude Resorts | Contact</title>
+    <meta name="author" content="Tanvi Malhotra">
+    <meta name="description" content="resort home page">
+
+    <link rel="shortcut icon" href="images/faviconimage.jpg" type="image/x-icon">
+    <link rel="icon" href="images/faviconimage.jpg" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Figtree:ital@0;1&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Alptitude Resorts</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#accommodations">Accommodations</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="flex" id="contact">
+            <section>
+                <h2>Contact Us</h2>
+                <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream
+                    vacation with us!<br>
+                    Required fields marked with a *</p>
+                <img src="images/swiss-peak.jpg" alt="gigantic swiss peaks covered in snow" width="350" height="455">
+            </section>
+            <div>
+                <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+                    <label for="my-fname">Full Name<span class="required">*</span></label>
+                    <input type="text" name="my-fname" id="my-fname" required>
+
+                    <label for="my-email">Email Address<span class="required">*</span></label>
+                    <input type="email" name="my-email" id="my-email" required>
+
+                    <label for="my-phone">Phone Number<span class="required">*</span></label>
+                    <input type="tel" name="my-phone" id="my-phone" required>
+
+                    <fieldset>
+                        <legend>Preferred Contact Method<span class="required">*</span></legend>
+                        <input type="radio" name="pref-contact" id="pref-email" value="prefers email" required>
+                        <label for="pref-email">Email</label>
+
+                        <input type="radio" name="pref-contact" id="pref-phone" value="prefers phone">
+                        <label for="pref-phone">Phone</label>
+                    </fieldset>
+
+                    <label for="my-comm">Comments<span class="required">*</span></label>
+                    <textarea name="my-comm" id="my-comm" required></textarea>
+
+                    <input type="submit" name="my-submit" id="my-submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+<footer>
+    <p>Copyright &copy; 2023- Alptitude Resorts</p>
+    <p>This site is for educational purposes only</p>
+</footer>
+</html>
